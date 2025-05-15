@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# flappy-frog-smart-contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Simple smart contract to handle treasury for **flappy-frog-miniapp**
 
-Try running some of the following tasks:
+Try running in local:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npm install
+npm run hardhat:compile
+npx harhardhat:node
+npm run hardhat:deploy:local
 ```
+
+Currently the contract is deployed on **Base Sepolia** at this address[0x224cF58A44ae145268D70371C6Af29e4B2AC95E6](https://sepolia.basescan.org/address/0x224cf58a44ae145268d70371c6af29e4b2ac95e6)

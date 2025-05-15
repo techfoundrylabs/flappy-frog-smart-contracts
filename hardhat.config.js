@@ -32,7 +32,7 @@ module.exports = {
     customChains: [
       {
         network: "baseSepolia",
-        chainId: 84531,
+        chainId: 84532,
         urls: {
           apiURL: "https://api-sepolia.basescan.org/api",
           browserURL: "https://sepolia.basescan.org",
@@ -41,6 +41,6 @@ module.exports = {
     ],
   },
   sourcify: {
-    enabled: true,
+    enabled: false,
   },
 };

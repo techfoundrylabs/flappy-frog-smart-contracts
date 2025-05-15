@@ -6,10 +6,11 @@
   "scripts": {
     "hardhat:create": "hardhat init",
     "hardhat:compile": "hardhat compile",
+    "hardhat:node": "hardhat run node",
     "hardhat:deploy:local": "hardhat ignition deploy ./ignition/modules/FlappyBaseFrogTreasuryPool.js --network localhost",
-    "hardhat:deploy:basesepolia": "hardhat ignition deploy ./ignition/modules/FlappyBaseFrogTreasuryPool.js --network baseSepolia",
+    "hardhat:deploy:baseSepolia": "hardhat ignition deploy ./ignition/modules/FlappyBaseFrogTreasuryPool.js --network baseSepolia",
     "hardhat:flatten": "hardhat flatten",
-    "hardhat:verify:baseSepolia":"hardhat verify --network baseSepolia",
+    "hardhat:verify:baseSepolia": "hardhat verify --network baseSepolia",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
