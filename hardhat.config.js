@@ -24,6 +24,10 @@ module.exports = {
       url: `https://base-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
       accounts: [BASE_PRIVATE_KEY],
     },
+    base: {
+      url: `https://base-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+      accounts: [BASE_PRIVATE_KEY],
+    },
   },
   etherscan: {
     apiKey: {
@@ -33,6 +37,14 @@ module.exports = {
       {
         network: "baseSepolia",
         chainId: 84532,
+        urls: {
+          apiURL: "https://api-sepolia.basescan.org/api",
+          browserURL: "https://sepolia.basescan.org",
+        },
+      },
+      {
+        network: "base",
+        chainId: 8453,
         urls: {
           apiURL: "https://api-sepolia.basescan.org/api",
           browserURL: "https://sepolia.basescan.org",

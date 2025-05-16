@@ -9,6 +9,7 @@
     "hardhat:node": "hardhat run node",
     "hardhat:deploy:local": "hardhat ignition deploy ./ignition/modules/FlappyBaseFrogTreasuryPool.js --network localhost",
     "hardhat:deploy:baseSepolia": "hardhat ignition deploy ./ignition/modules/FlappyBaseFrogTreasuryPool.js --network baseSepolia",
+    "hardhat:deploy:base": "hardhat ignition deploy ./ignition/modules/FlappyBaseFrogTreasuryPool.js --network base",
     "hardhat:flatten": "hardhat flatten",
     "hardhat:verify:baseSepolia": "hardhat verify --network baseSepolia",
     "test": "echo \"Error: no test specified\" && exit 1"
